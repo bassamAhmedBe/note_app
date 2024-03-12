@@ -10,8 +10,8 @@ class NoteListViewBuldier extends StatelessWidget {
         itemCount: 10,
         itemBuilder: (context, index) {
           return const Padding(
-            padding:  EdgeInsets.symmetric(vertical: 8),
-            child:  CustomNotesItem(),
+            padding: EdgeInsets.symmetric(vertical: 4),
+            child: CustomNotesItem(),
           );
         });
   }
