@@ -9,10 +9,19 @@ class EditNoteViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
-          height: 20,
+       const SizedBox(
+          height: 32,
         ),
-        CustomAppBar(title: 'Edit Note',),
+      const  Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16),
+          child: CustomAppBar(
+            icon: Icons.check,
+            title: 'Edit Note',
+          ),
+        ),
+     const   SizedBox(
+          height: 16,
+        ),
         CustomTextField(
           hintText: 'Title',
         ),
