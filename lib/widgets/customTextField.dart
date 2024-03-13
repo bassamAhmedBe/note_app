@@ -21,7 +21,7 @@ class CustomTextField extends StatelessWidget {
         onChanged: onChanged,
         decoration: InputDecoration(
           hintText: hintText,
-          hintStyle: const TextStyle(color: KprimapryColors),
+          hintStyle: const TextStyle(color: kPrimapryColors),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15),
           ),
