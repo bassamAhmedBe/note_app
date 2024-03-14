@@ -24,7 +24,7 @@ class AddNoteBottomSheet extends StatelessWidget {
        const   SizedBox(
             height: 50,
           ),
-       const   CustomButton(),
+          CustomButton(),
         ],
       ),
     );
